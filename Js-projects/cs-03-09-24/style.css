@@ -1,0 +1,67 @@
+/* Задание 1 */
+.div1{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50px;
+}
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 100px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.div3{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+.div4{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 100px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+/* задание2 */
+.battery{
+    width: 300px;
+    height: 150px;
+    border: solid 5px black;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.battery::after{
+    content: '';
+    width: 20px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    border-radius: 3px;
+}
+.battery-level{
+    flex: 1;
+    background-color: green;
+    border-top: 1px solid black;
+    opacity: 0;
+    transition: opacity 1s;
+}
+/* Задание 3 */
+.img1{
+    width: 100px;
+}

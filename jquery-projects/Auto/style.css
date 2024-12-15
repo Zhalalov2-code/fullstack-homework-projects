@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://cdn.tripster.ru/thumbs2/0fbeccf2-ab9b-11ed-b718-36c17ab82c90.1220x600.jpeg);
+    background-size: cover;
+}
+.div1{
+    width: 100%;
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    top: 500px;
+}
+.polosa{
+    border: solid;
+    color: white;
+    position: relative;
+    top: 90px;
+}
+.polosa1{
+    border: solid;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.auto{
+    position: relative;
+    bottom: 100px;
+    width: 250px;
+}
+.svetafor{
+    width: 50px;
+    height: 100px;
+    background-color: gray;
+    position: relative;
+    top: -400px;
+    left: 1000px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.svitafor1{
+    width: 10px;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    top: -400px;
+    left: 1023px;
+}
+.sv1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-radius: 100px;
+}
+.sv2{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-radius: 100px;
+}
+.sv3{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    border-radius: 100px;
+}
