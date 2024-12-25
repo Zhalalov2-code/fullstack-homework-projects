@@ -1,0 +1,140 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.Navbar{
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+.img1{
+  width: 100px;
+  position: relative  ;
+  top: -10px;
+}
+.glavnaia{
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  position: relative;
+  top: 20px;
+}
+.about{
+  width: 80px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  position: relative;
+  top: -20px;
+  left: 120px;
+}
+.about:hover{
+  background-color: red;
+  color: white;
+}
+.contact{
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  position: relative;
+  top: -60px;
+  left: 220px;
+}
+.contact:hover{
+  background-color: red;
+  color: white;
+}
+.p1{
+  position: relative;
+  top: 2px;
+  font-size: 20px;
+}
+.SignIn{
+  width: 120px;
+  height: 40px;
+  background-color: #dcdcde;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+  color: gray;
+}
+.SignIn:hover{
+  background-color: red;
+  color: white;
+}
+.signin{
+  font-size: 20px;
+  position: relative;
+  top: 10px;
+  left: 15px;
+}
+.p2{
+  position: relative;
+  left: 45px;
+  top: -20px;
+  font-size: 20px;
+}
+.row1{
+  width: 1513px;
+  height: 700px;
+  background-image: url(https://images.wallpaperscraft.ru/image/single/les_derevia_tuman_110131_1280x720.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  width: 100%;
+  height: 700px; 
+  background-color: rgba(0, 0, 0, 0.2);  
+  position: absolute;
+  top: 80px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;  
+  z-index: 1;
+}
+.divData{
+  z-index: 2;
+  position: relative;
+  top: 125px;
+  left: 100px;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 15px;
+}
+.kub1{
+  width: 200px;
+  height: 200px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+.kub1:hover{
+  background-color: #ff4f4f;
+  color: white;
+}
+.homeicon{
+  font-size: 40px;
+  position: relative;
+  top: 40px;
+}
+.p{
+  position: relative;
+  top: 60px;
+}
+.span1{
+  width: 40px;
+  height: 30px;
+  background-color: silver;
+  border-radius: 20px;
+  position: relative;
+  left: 70px;
+  top: 50px;
+}
