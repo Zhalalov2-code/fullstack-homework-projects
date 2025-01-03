@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    background-color: #404040;
+    width: 1355px;
+    height: 738px;
+    color: greenyellow;
+    float: left;
+}
+.div2{
+    float: left;
+    width: 170px;
+    height: 738px;
+    background-color: black;
+}
+.btn1{
+    background-color: greenyellow;
+    width: 170px;
+}
+.btn2{
+    background-color: red;
+    width: 170px;
+}
+.btn3{
+    background-color: #00a2ff;
+    width: 170px;
+}
+.h2{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+}
