@@ -4,6 +4,7 @@ import Konverter from './pages/konverter';
 import Calculator from './pages/calc';
 import Terminal from './pages/banktermin';
 import Gpacalculator from './pages/gpacalculator';
+import Average from './pages/gradeAverage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
             <Route path='/konverter' element={<Konverter/>} />
             <Route path='/banktermin' element={<Terminal/>} />
             <Route path='/gpacalculator' element={<Gpacalculator/>} />
+            <Route path='/gradeAverage' element={<Average/>} />
         </Routes>
       </BrowserRouter>
     </div>
