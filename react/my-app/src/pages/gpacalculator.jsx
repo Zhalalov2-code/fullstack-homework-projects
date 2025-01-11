@@ -56,7 +56,7 @@ function Gpacalculator(){
                         className="form-control"
                         value={gerade}
                         onChange={(e) => setGerade(e.target.value)}
-                    >
+                        >
                         <option value="">Select Grade</option>
                         <option value="A">A</option>
                         <option value="B">B</option>

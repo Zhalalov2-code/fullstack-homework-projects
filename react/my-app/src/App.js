@@ -5,6 +5,7 @@ import Calculator from './pages/calc';
 import Terminal from './pages/banktermin';
 import Gpacalculator from './pages/gpacalculator';
 import Average from './pages/gradeAverage';
+import CalcGPA from './pages/calcGPA';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path='/banktermin' element={<Terminal/>} />
             <Route path='/gpacalculator' element={<Gpacalculator/>} />
             <Route path='/gradeAverage' element={<Average/>} />
+            <Route path='/calcGPA' element={<CalcGPA/>} />
         </Routes>
       </BrowserRouter>
     </div>
