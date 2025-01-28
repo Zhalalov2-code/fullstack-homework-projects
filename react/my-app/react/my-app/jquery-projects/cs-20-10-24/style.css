@@ -1,0 +1,27 @@
+.div1{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    border-radius: 100%;
+    position: relative;
+    opacity: 0.1;
+}
+.div2{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    position: relative;
+    left: 660px;
+    top: 300px;
+    border-radius: 100%;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.5);
+}
+.div3{
+    width: 35px;
+    height: 35px    ;
+    background-color: green;
+    position: relative;
+    border-radius: 100%;
+    left: 17px;
+    top: 17px;
+}
