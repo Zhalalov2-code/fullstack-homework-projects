@@ -1,0 +1,270 @@
+    body{
+        background-color: steelblue;
+        margin: 0px;
+        padding: 0px;
+    }
+    .h1{
+        position: relative;
+        left: 700px;
+        color: white;
+    }
+    .h2{
+        position: relative;
+        left: 620px;
+        color: white;
+    }
+    .h3{
+        position: relative;
+        left: 820px;
+        top: -210px;
+        color: white;
+    }
+    .div3{
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        position: relative;
+        left: 600px;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    .div4{
+        position: relative;
+        top: 20px;
+    }
+    .div5{
+        width: 150px;
+        height: 150px;
+        background-color: white;
+        position: relative;
+        left: 800px;
+        top: -210px;
+        border-radius: 20px;
+        border: 2px solid black;
+    }
+    .btn1{
+        width: 200px;
+        height: 50px;
+        position: relative;
+        left: 670px;
+        top: -150px;
+    }
+    .btn2{
+        width: 200px;
+        height: 50px;
+        position: relative;
+        left: 465px;
+        top: -80px;
+    }
+    .a1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .a2{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 20px;
+    }
+    .a3{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+    .a4{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -95px;
+    }
+    .a5{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -85px;
+    }
+    .a6{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -75px;
+    }
+    .b1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .b2{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 20px;
+    }
+    .b3{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 30px;
+    }
+    .b4{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -95px;
+    }
+    .b5{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -85px;
+    }
+    .b6{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -75px;
+    }
+    in{
+        width: 200px;
+        height: 30px;
+        float: left;
+    }
+    .c1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .c2{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 60px;
+    }
+    .c3{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -60px;
+    }
+    .c4{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: -10px;
+    }
+    .c5{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 55px;
+        top: -85px;
+    } 
+    .d1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .d2{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+    .d3{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: 30px;
+    } 
+    .e1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 10px;
+        top: 10px;
+    }
+    .e2{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 100px;
+        top: 60px;
+    }
+    .f1{
+        width: 35px;
+        height: 35px;
+        background-color: black;
+        border-radius: 100%;
+        position: relative;
+        left: 55px;
+        top: 50px;
+    }

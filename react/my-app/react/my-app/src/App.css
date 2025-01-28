@@ -46,13 +46,9 @@
 }
 .divAverage{
     width: 500px;
-    height: auto;
+    height: 450px;
     border: 2px solid black;
     position: relative;
     left: 400px;
     top: 100px;
-}
-.completed-task {
-    text-decoration: line-through;
-    color: gray; 
 }

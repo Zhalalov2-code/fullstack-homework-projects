@@ -1,0 +1,65 @@
+.krug{
+    transform-style: preserve-3d;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 600px;
+}
+.bet1{
+    position: absolute;
+    background-color: blue;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateY(0deg) translateZ(155px);
+    border: 5px solid black;
+}
+.bet2{
+    position: absolute;
+    background-color: yellow;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateY(180deg) translateZ(155px);
+    border: 5px solid black;
+}
+.bet3{
+    position: absolute;
+    background-color: green;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateY(90deg) translateZ(155px);
+    border: 5px solid black;
+}
+.bet4{
+    position: absolute;
+    background-color: red;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateY(-90deg) translateZ(155px);
+    border: 5px solid black;
+}
+.bet5{
+    position: absolute;
+    background-color: orange;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateX(90deg) translateZ(155px);
+    border: 5px solid black;
+}
+.bet6{
+    position: absolute;
+    background-color: aqua;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: rotateX(-90deg) translateZ(155px);
+    border: 5px solid black;
+}
+input{
+    margin: 5px;
+}
