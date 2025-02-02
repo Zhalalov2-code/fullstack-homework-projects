@@ -17,6 +17,10 @@ import Registr from './pages/authentication';
 import LocalUser from './pages/localuser';
 import Localstoragecart from './pages/localstoragCart';
 import ManagerZametki from './pages/zametki';
+import Main from './pages/mian';
+import Products from './pages/products';
+import Users from './pages/users';
+
 
 function App() {
   return (
@@ -40,6 +44,9 @@ function App() {
             <Route path='/localuser' element={<LocalUser/>} />
             <Route path='/localstoragCart' element={<Localstoragecart/>} />
             <Route path='/zametki' element={<ManagerZametki/>} />
+            <Route path='/main' element={<Main/>} />
+            <Route path='/products' element={<Products/>} />
+            <Route path='/users' element={<Users/>} />
         </Routes>
       </BrowserRouter>
     </div>
