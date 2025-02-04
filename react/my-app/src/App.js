@@ -20,7 +20,9 @@ import ManagerZametki from './pages/zametki';
 import Main from './pages/mian';
 import Products from './pages/products';
 import Users from './pages/users';
-
+import Magazin from './pages/magazin';
+import CartPage from './pages/basket';
+import ProductDetails from './pages/product.details';
 
 function App() {
   return (
@@ -47,6 +49,9 @@ function App() {
             <Route path='/main' element={<Main/>} />
             <Route path='/products' element={<Products/>} />
             <Route path='/users' element={<Users/>} />
+            <Route path='/magazin' element={<Magazin/>} />
+            <Route path='/basket' element={<CartPage/>} />
+            <Route path='/product.details/:id' element={<ProductDetails/>} />
         </Routes>
       </BrowserRouter>
     </div>
