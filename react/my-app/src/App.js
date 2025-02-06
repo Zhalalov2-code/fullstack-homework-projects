@@ -23,6 +23,8 @@ import Users from './pages/users';
 import Magazin from './pages/magazin';
 import CartPage from './pages/basket';
 import ProductDetails from './pages/product.details';
+import BookStore from './pages/bookStore';
+import BookDetails from './pages/book.details';
 
 function App() {
   return (
@@ -52,6 +54,8 @@ function App() {
             <Route path='/magazin' element={<Magazin/>} />
             <Route path='/basket' element={<CartPage/>} />
             <Route path='/product.details/:id' element={<ProductDetails/>} />
+            <Route path='/bookStore' element={<BookStore/>} />
+            <Route path='/book.details/:id' element={<BookDetails/>} />
         </Routes>
       </BrowserRouter>
     </div>
