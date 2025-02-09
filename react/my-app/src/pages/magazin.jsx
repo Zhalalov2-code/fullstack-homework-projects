@@ -39,7 +39,6 @@ function Magazin() {
         const updateBasket = [...basket, phone];
         setBasket(updateBasket);
         localStorage.setItem('basket', JSON.stringify(updateBasket));
-        console.log('добавлено')
     }
 
     function sortPhones(e) {

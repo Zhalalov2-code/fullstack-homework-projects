@@ -25,6 +25,8 @@ import CartPage from './pages/basket';
 import ProductDetails from './pages/product.details';
 import BookStore from './pages/bookStore';
 import BookDetails from './pages/book.details';
+import Login from './pages/logIn';
+import UserProf from './pages/userProf';
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
             <Route path='/product.details/:id' element={<ProductDetails/>} />
             <Route path='/bookStore' element={<BookStore/>} />
             <Route path='/book.details/:id' element={<BookDetails/>} />
+            <Route path='/logIn' element={<Login/>} />
+            <Route path='/userProf' element={<UserProf/>} />
         </Routes>
       </BrowserRouter>
     </div>
