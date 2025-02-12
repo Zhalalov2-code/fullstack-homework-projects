@@ -27,6 +27,8 @@ import BookStore from './pages/bookStore';
 import BookDetails from './pages/book.details';
 import Login from './pages/logIn';
 import UserProf from './pages/userProf';
+import Messenger from './pages/messenger';
+import Chat from './pages/chat';
 
 function App() {
   return (
@@ -60,6 +62,8 @@ function App() {
             <Route path='/book.details/:id' element={<BookDetails/>} />
             <Route path='/logIn' element={<Login/>} />
             <Route path='/userProf' element={<UserProf/>} />
+            <Route path='/messenger' element={<Messenger/>} />
+            <Route path='/chat' element={<Chat/>} />
         </Routes>
       </BrowserRouter>
     </div>

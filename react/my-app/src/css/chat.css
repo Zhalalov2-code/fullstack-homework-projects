@@ -1,0 +1,84 @@
+.block1{
+    width: 600px;
+    height: 550px;
+    position: absolute;
+    left: 350px;
+    top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 2px gray;
+    padding: 10px;
+}
+.block2{
+    width: 200px;
+    height: 530px;
+    background-color: gainsboro;
+    position: absolute;
+    border-radius: 10px;
+}
+h5{
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    color: black;
+}
+.block3{
+    width: 370px;
+    height: 450px;
+    background-color: gainsboro;
+    position: absolute;
+    left: 220px;
+    border-radius: 10px;
+}
+.block4{
+    width: 370px;
+    height: 70px;
+    background-color: gainsboro;
+    position: absolute;
+    top: 470px;
+    left: 220px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.inp1{
+    width: 300px; 
+    height: 50px;
+    float: left;
+}
+.btn1{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: px;
+    float: left;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    left: 315px;
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    left: 290px;
+    border-radius: 10px;
+}
+.userInfo {
+    width: 180px; 
+    height: auto;
+    background-color: gray;
+    margin: 10px; 
+    padding: 10px; 
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 35px;
+    cursor: pointer;
+}
+.chat-history{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
