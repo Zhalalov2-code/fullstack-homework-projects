@@ -29,6 +29,7 @@ import Login from './pages/logIn';
 import UserProf from './pages/userProf';
 import Messenger from './pages/messenger';
 import Chat from './pages/chat';
+import ApiTest1 from './pages/apiTest1';
 
 function App() {
   return (
@@ -64,6 +65,7 @@ function App() {
             <Route path='/userProf' element={<UserProf/>} />
             <Route path='/messenger' element={<Messenger/>} />
             <Route path='/chat' element={<Chat/>} />
+            <Route path='/apiTest1' element={<ApiTest1/>} />
         </Routes>
       </BrowserRouter>
     </div>
