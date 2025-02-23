@@ -30,6 +30,8 @@ import UserProf from './pages/userProf';
 import Messenger from './pages/messenger';
 import Chat from './pages/chat';
 import ApiTest1 from './pages/apiTest1';
+import ApiTest2 from './pages/apiTest2';
+import DetailsApiTest2 from './pages/details.apiTest2';
 
 function App() {
   return (
@@ -66,6 +68,8 @@ function App() {
             <Route path='/messenger' element={<Messenger/>} />
             <Route path='/chat' element={<Chat/>} />
             <Route path='/apiTest1' element={<ApiTest1/>} />
+            <Route path='/apiTest2' element={<ApiTest2/>} />
+            <Route path='/details.apiTest2/:id' element={<DetailsApiTest2/>} />
         </Routes>
       </BrowserRouter>
     </div>
